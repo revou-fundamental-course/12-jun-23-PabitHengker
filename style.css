@@ -1,0 +1,64 @@
+*
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#judul {
+    background-color: transparent;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #27374D;
+    border-radius: 5px;
+    display: block;
+}
+
+div input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#celcius {
+    padding: 0;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+#fahrenheit {
+    padding: 0;
+    margin-top: 5px;
+    width: 100%;
+}
