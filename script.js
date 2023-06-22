@@ -6,5 +6,5 @@ function konversi() {
 
 function reset() {
     document.getElementById('celcius').value = " "
-    document.getElementById('fahreheit').value = " "
+    document.getElementById('fahrenheit').value = " "
 }
